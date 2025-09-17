@@ -1,0 +1,51 @@
+[package]
+name = "rs-parquet-row-group-stats"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies.parquet]
+version = "56"
+default-features = false
+features = [
+	"arrow",
+]
+
+[dependencies.serde]
+version = "1"
+default-features = false
+features = [
+	"std",
+	"derive",
+]
+
+[dependencies.serde_json]
+version = "1"
+default-features = false
+features = [
+	"std",
+]
+
+[dependencies.futures]
+version = "0"
+default-features = false
+features = [
+	"async-await",
+	"executor",
+	"std",
+]
+
+[dependencies.async-stream]
+version = "0"
+default-features = false
+features = [
+]
+
+[dependencies.tokio]
+version = "1"
+default-features = false
+features = [
+	"macros",
+	"rt-multi-thread",
+	"io-util",
+	"io-std",
+]
