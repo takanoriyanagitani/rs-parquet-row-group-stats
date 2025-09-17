@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export ENV_INPUT_PARQUET_FILENAME=./sample.parquett
+export ENV_INPUT_PARQUET_FILENAME=./sample.parquet
 
 geninput(){
 	wikixgz=~/Downloads/enwiki-20250801-pages-articles-multistream-index.txt.gz
